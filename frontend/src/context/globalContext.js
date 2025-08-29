@@ -13,7 +13,7 @@ export const GlobalProvider = ({children}) => {
     const [expenses, setExpenses] = useState([])
     const [error, setError] = useState(null)
 
-    //calculate incomes
+
     const addIncome = async (income) => {
         const response = await axios.post(`${BASE_URL}add-income`, income)
             .catch((err) =>{

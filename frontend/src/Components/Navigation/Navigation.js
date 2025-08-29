@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import avatar from '../../img/avatar.png'
+import image1 from '../../img/image1.png'
 import { signout } from '../../utils/Icons'
 import { menuItems } from '../../utils/menuItems'
 
@@ -9,9 +9,9 @@ function Navigation({active, setActive}) {
     return (
         <NavStyled>
             <div className="user-con">
-                <img src={avatar} alt="" />
+                <img src={image1} alt="" />
                 <div className="text">
-                    <h2>Mike</h2>
+                    <h2>PROFILE</h2>
                     <p>Your Money</p>
                 </div>
             </div>
